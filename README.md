@@ -1,74 +1,111 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# University Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+University Dashboard is a web-based platform designed to manage student data, track academic performance, and streamline administrative tasks for universities and educational institutions. Built with React for the frontend and Node.js with MySQL for the backend, this dashboard provides an intuitive interface and real-time data management capabilities.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Admin Login**: Secure login for administrators to manage the dashboard.
+- **Student Management**: Admins can add, update, or delete student records.
+- **Performance Monitoring**: Visual representation of student performance through graphs and charts.
+- **Real-Time Updates**: Data changes are instantly reflected throughout the platform.
+- **Student Login and Profile Management**: Students can sign up, log in, and update their profiles.
+- **Responsive Design**: Works seamlessly on all devices, thanks to Bootstrap integration.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+Check out the live demo of the University Dashboard deployed on Netlify: [University Dashboard Demo](https://your-deployed-url.netlify.app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To get a local copy up and running, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** (version 14+)
+- **npm** (version 6+)
+- **MySQL** (version 8+)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend Setup
 
-### `npm run eject`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Pavanjangle/University-Dashboard.git
+    cd University-Dashboard/Backend
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Set up the MySQL database:
+   - Create a new MySQL database named `university_dashboard`.
+   - Update the database configuration in `index.js` with your MySQL credentials.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the backend server:
+    ```bash
+    node index.js
+    ```
+   The server will run on `http://localhost:5000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend Setup
 
-## Learn More
+1. Navigate to the frontend directory:
+    ```bash
+    cd ../Frontend
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Start the React development server:
+    ```bash
+    npm start
+    ```
+   The app will run on `http://localhost:3000`.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Admin Login**: Use the default credentials (`admin` / `adminpass`) to log in as an admin.
+2. **Student Sign-Up**: Students can create an account and log in to view or update their profiles.
+3. **Performance Tracking**: Admins can view and update student marks and monitor their progress.
 
-### Analyzing the Bundle Size
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Frontend**: React, Bootstrap, Axios
+- **Backend**: Node.js, Express, MySQL, Helmet, Cors
+- **Deployment**: Netlify (Frontend), Heroku or another hosting provider (Backend)
+- **Other Libraries**: Font Awesome for icons, Google Fonts for typography
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! Please follow these steps:
 
-### Advanced Configuration
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- Thanks to the developers of React, Node.js, and MySQL for their amazing frameworks and tools.
+- Icons by [Font Awesome](https://fontawesome.com/).
+- Fonts by [Google Fonts](https://fonts.google.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# University-Dashboard
->>>>>>> 3c48add24b1bfff27995349bfa00f56e55021904
