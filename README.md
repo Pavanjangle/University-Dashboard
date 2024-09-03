@@ -23,7 +23,7 @@ University Dashboard is a web-based platform designed to manage student data, tr
 
 ## Demo
 
-Check out the live demo of the University Dashboard deployed on Netlify: [University Dashboard Demo](https://your-deployed-url.netlify.app)
+Check out the live demo of the University Dashboard deployed on Netlify: [University Dashboard Demo](https://university-dashb.netlify.app/)
 
 ## Installation
 
