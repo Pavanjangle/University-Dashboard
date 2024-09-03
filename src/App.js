@@ -1,22 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AdminLogin from './AdminLogin';
+import StudentLogin from './StudentLogin';
+import MyProfile from './MyProfile';
+import MyPerformance from './MyPerformance';
+import StudentSignup from './StudentSignup';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from './Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="App ">
+      <header className="App-header"style={{ backgroundColor: '#E8E8E8', minHeight: '100vh' }}>
+      <AdminLogin />
+      <StudentSignup />
+      <StudentLogin />
+      <MyProfile />
+      <MyPerformance />
+      <Footer />
       </header>
     </div>
   );
